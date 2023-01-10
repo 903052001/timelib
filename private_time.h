@@ -40,9 +40,9 @@ extern "C"
 
 #if 0
 
-typedef int       size_t;
+typedef unsigned int size_t;
 typedef long long clock_t;
-typedef long long time_t;
+typedef long time_t;
 
 struct tm
 {
